@@ -1,10 +1,10 @@
 import { React } from 'react';
 import './App.scss';
-import VerticalTab from './components/verticalTabs';
+import Table from './components/table';
 
 const App = (context) =>
 	<div className="App" role="App">
-		<VerticalTab { ...context }/>
+		<Table { ...context }/>
 	</div>;
 
 export default App;
