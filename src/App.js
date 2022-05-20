@@ -1,10 +1,10 @@
 import { React } from 'react';
 import './App.scss';
-import Table from './components/table';
+import Heading from './components/heading';
 
 const App = (context) =>
 	<div className="App" role="App">
-		<Table { ...context }/>
+		<Heading { ...context }/>
 	</div>;
 
 export default App;
